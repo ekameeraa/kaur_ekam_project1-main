@@ -1,0 +1,68 @@
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #333;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+p {
+    line-height: 30px;
+    color: black;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 56px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    background-color: whitesmoke;
+    color: red;
+    padding: 15px;
+    box-shadow: 5px 5px 0 blueviolet;
+}
+
+h3 {
+    font-size: 42px;
+    border: solid 8px plum;
+    border-radius: 10px;
+    color: chocolate;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+section {
+    background-image:  url('../images/background\ image.png');
+    background-repeat: no-repeat;
+}
+
+h4 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+}
